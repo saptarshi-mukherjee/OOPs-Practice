@@ -7,6 +7,8 @@ public class BinarySearch implements Searchable{
     public BinarySearch(ArrayList<Integer> A) {
         this.A=A;
         Collections.sort(this.A);
+        System.out.println("Sorted array :-");
+        System.out.println(this.A);
     }
 
     public int search(int target) {
